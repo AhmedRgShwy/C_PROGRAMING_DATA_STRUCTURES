@@ -3,7 +3,7 @@
 
 int queue[MAX_SIZE];
 
-extern int top= -1;
+int top= -1;
 
 
 U8 isEmpty()
