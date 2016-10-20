@@ -141,7 +141,10 @@ char viewNode( struct Node *list, int data )
 	struct Node *ptrInstant= list, *ptrPrevious= NULL ;
 	ptrInstant= searchNode(list, data, ptrPrevious);
 	if( ptrInstant )
+	{
+		check= 1;
 		printf("Node Data= %d\n", ptrInstant->data );
+	}
 	return check ;
 }
 
