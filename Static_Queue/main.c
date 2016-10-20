@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include"queue.h"
 
-int top;
+extern int top;
 
 int main(void)
 {
