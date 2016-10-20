@@ -125,7 +125,7 @@ char deleteAll( struct Node **list )
         nodesNum--;
         ptrInstant= ptrNext;
     }
-    *list= NULL;
+    *list= ptrInstant;
 	return check;
 }
 
