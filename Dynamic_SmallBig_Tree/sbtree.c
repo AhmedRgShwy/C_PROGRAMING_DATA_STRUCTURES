@@ -1,5 +1,8 @@
 
 
+
+/*************************************** Binsry Tree with small part and big part ******************************************/
+
 #include"sbtree.h"
 #include<stdio.h>
 
